@@ -1,0 +1,127 @@
+@media screen and (max-width: 930px) {
+  .pizza_card{
+  width: 500px;
+  height: 300px;
+  }
+  .discount{
+  width: 180px;
+  height: 180px;
+  }
+  .child-1_info{
+  padding: 10px;
+  }
+  .where{
+  font-size: 200%;
+  }
+  .grid_container {
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 534px) {
+  .pizza_card{
+  width: 400px;
+  height: 300px;
+  }
+  .discount{
+  width: 120px;
+  height: 120px;
+  border: 7px solid #111111;
+  }
+
+  .discount_text{
+  gap: 10px;
+  padding: 20px;
+  }
+.discount h2{
+  font-size: 140%;
+  }
+
+.discount h5{
+  font-size: 30%;
+
+}
+.where{
+  font-size: 120%;
+}
+.child-1_info p{
+  font-size: 80%;
+
+}
+.child-1_info img{
+  width: 70px;
+  height: 70px;
+}
+.heart img{
+  width: 100px;
+  height: 100px;
+}
+
+}
+@media screen and (max-width: 425px){
+  .pizza_card{
+  width: 300px;
+  height: 350px;
+  }
+  .pizza_card p{
+  font-size: 70%;
+}
+.grid_container {
+justify-content: center;
+}
+.grid_card{
+  width: 320px;
+}
+.grid_card img{
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  margin: 30px 8px 0px 8px;
+}
+.bottom img{
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  transform-origin: center center;
+  transform: translateX(50%) translateY(50%) rotate(30deg);
+  }
+  
+  .italy_menu img{
+  width: 150px;
+  height: 40px;
+
+  }
+  .italy_menu h2{
+  font-size: 180%;
+  font-weight: 800;
+  }
+
+.italy_menu p{
+  font-size: 80%;
+}
+.footer_container img{
+  width: 150px;
+  height: 70px;
+  object-fit: contain;
+
+}
+.footer_container h2{
+  font-size: 200%;
+}
+.footer_text{
+  font-size: 70%;
+}
+.phone{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  font-size: 120%;
+  color: #FFFFFF;
+  font-weight: 700;
+  gap: 10px;
+}
+  
+}
